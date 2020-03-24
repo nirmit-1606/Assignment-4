@@ -1,0 +1,49 @@
+body{
+	background-image: url(reg-bg.jpg);
+	background-size: 100% 757px;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 0;
+}
+.heading{
+	font-family: monospace;
+	text-align: center;
+	color: #FFEFBF;
+	font-size: 25px;
+	padding-top: 80px;
+}
+.container{
+	padding: 70px 575px;
+}
+.form{
+	width: 330px;
+	height: 350px;
+	background: rgba(231, 231, 231,0.7);
+	padding: 10px 30px;
+	font-size: 20px;
+}
+p{
+	color: #040087;
+}
+input, textarea{
+	float: right;
+	background-color: unset;
+	border-bottom: 1px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	font-family: monospace;
+}
+button{
+	padding: 10px 15px;
+	color: white;
+	display: inline-block;
+	opacity: 0.75;
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+	float: left;
+}
+button:hover{
+	opacity: 1;
+}
